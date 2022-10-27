@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface IToDoDao  extends JpaRepository<matiere,Long> {
+public interface IToDoDao //extends JpaRepository<matiere,Long>
+{
 	public List<String> getCoursesList();
 }
