@@ -10,7 +10,8 @@ import com.esprit.Dependency.tpDependencyInjection.dao.IToDoDao;
 
 @Service
 public class ToDoService {
-	
+
+	@Autowired
 	private IToDoDao toDoDao;
 
 	public List<String> getCoursesList() {

@@ -6,8 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
-public interface IToDoDao //extends JpaRepository<matiere,Long>
+
+public interface IToDoDao //hethi classe li bech t'implimenteha repo
 {
 	public List<String> getCoursesList();
 }
